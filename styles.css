@@ -14,15 +14,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    align-items: center;
     width: 100%;
 }
 
 .hero {
     display: flex;
-    padding: 10px;
     padding-top: 15px;
-    gap: 18px;
+    justify-content: space-around;
+    gap: 141px;
 }
 
 .logo {
@@ -37,26 +36,33 @@ ul {
     gap: 10px;
 }
 
-.content {
-    display: flex;
+li {
+    color: #e5e7eb;
 }
 
+.content {
+    display: flex;
+    padding: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
+    justify-content: space-around;
+}
 .text {
     display: flex;
     flex-direction: column;
     width: 500px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .awesome {
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 900px;
     width: 400px;
     color: #e5e7eb;
 }
 
 .subtext {
-    font-size : 19px;
+    font-size : 18px;
     color: #e5e7eb;
 }
 
@@ -65,9 +71,98 @@ ul {
     font-size: 19px;
     text-align: center;
     background-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 7px;
     border-color: rgb(18, 18, 94);
-    font-weight: bold;
+    font-weight: 400px;
     color: #e5e7eb;
+    padding: 10px;
 
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.im {
+    box-sizing: border-box;
+    width: 400px;
+    border: #3882f6 6px solid;
+    border-radius: 5%;
+}
+
+.random-info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+    padding: 70px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    padding: 90px;
+    padding-left: 400px;
+    padding-right: 400px;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-size: 25px;
+    padding-right: 100px;
+}
+
+.quotie {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color : #1f2937
+}
+
+.promo {
+    margin-top: 50px;
+    display: flex;
+    background-color: #3882f6;
+    padding: 36px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.action {
+    font-size: 30px;
+}
+
+.signer {
+    font-size: 25px;
+}
+
+.signed {
+    width : 200px;
+    font-size: 30px;
+    background-color: #3882f6;
+    border: #e5e7eb 3px solid;
+    border-radius: 15px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+    padding: 50px;
+    color : #e5e7eb;
 }
